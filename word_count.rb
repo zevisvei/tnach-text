@@ -6,7 +6,7 @@ wc_db = SQLite3::Database.new 'word_count.sqlite'
 wc_db.execute <<-SQL
   CREATE TABLE IF NOT EXISTS WordCount(
     ID INT,
-    Word TEXT,
+    Word TEXT,דד
     WC INT
   );
 SQL
